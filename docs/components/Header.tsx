@@ -3,7 +3,7 @@ import Logo from "./Logo"
 import clsx from "clsx"
 import { IoMdClose } from "react-icons/io"
 import React from "react"
-import { RiDiscordFill, RiGithubFill, RiTwitterFill } from "react-icons/ri"
+import { RiGithubFill, RiTwitterFill } from "react-icons/ri"
 
 const Header = ({ className }: { className?: string }) => {
 	return (
@@ -32,11 +32,6 @@ const LINKS = [
 		href: "https://twitter.com/hybrid__dev",
 		// label: "Twitter",
 		icon: <RiTwitterFill className="mr-1 hover:text-white" size={28} />
-	},
-	{
-		href: "https://discord.gg/AcJFXZ9Mfk",
-		// label: "Discord",
-		icon: <RiDiscordFill className="mr-1 hover:text-white" size={28} />
 	}
 ]
 
